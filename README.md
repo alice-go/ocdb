@@ -1,5 +1,7 @@
 # ocdb
 
+[![Build Status](https://travis-ci.org/alice-go/ocdb.svg?branch=master)](https://travis-ci.org/alice-go/ocdb) [![GoDoc](https://godoc.org/github.com/alice-go/ocdb?status.svg)](https://godoc.org/github.com/alice-go/ocdb)
+
 `ocdb` is a WIP package to read and write OCDB files from the [ALICE](https://aliceinfo.cern.ch) experiment, in [Go](https://golang.org).
 
 ## Example
