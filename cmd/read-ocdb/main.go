@@ -31,7 +31,7 @@ func main() {
 			log.Fatal(err)
 		}
 
-		v := o.(*ocdb.AliCDBEntry)
+		v := o.(*ocdb.Entry)
 		v.Display(os.Stdout)
 	}
 }

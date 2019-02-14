@@ -15,7 +15,7 @@ import (
 func init() {
 	{
 		f := func() reflect.Value {
-			var o AliCDBEntry
+			var o Entry
 			return reflect.ValueOf(&o)
 		}
 		rtypes.Factory.Add("AliCDBEntry", f)
@@ -23,15 +23,15 @@ func init() {
 }
 
 var (
-	_ root.Object        = (*AliCDBEntry)(nil)
-	_ rbytes.Marshaler   = (*AliCDBEntry)(nil)
-	_ rbytes.Unmarshaler = (*AliCDBEntry)(nil)
+	_ root.Object        = (*Entry)(nil)
+	_ rbytes.Marshaler   = (*Entry)(nil)
+	_ rbytes.Unmarshaler = (*Entry)(nil)
 )
 
 func init() {
 	{
 		f := func() reflect.Value {
-			var o AliCDBId
+			var o ID
 			return reflect.ValueOf(&o)
 		}
 		rtypes.Factory.Add("AliCDBId", f)
@@ -39,15 +39,15 @@ func init() {
 }
 
 var (
-	_ root.Object        = (*AliCDBId)(nil)
-	_ rbytes.Marshaler   = (*AliCDBId)(nil)
-	_ rbytes.Unmarshaler = (*AliCDBId)(nil)
+	_ root.Object        = (*ID)(nil)
+	_ rbytes.Marshaler   = (*ID)(nil)
+	_ rbytes.Unmarshaler = (*ID)(nil)
 )
 
 func init() {
 	{
 		f := func() reflect.Value {
-			var o AliCDBPath
+			var o Path
 			return reflect.ValueOf(&o)
 		}
 		rtypes.Factory.Add("AliCDBPath", f)
@@ -55,15 +55,15 @@ func init() {
 }
 
 var (
-	_ root.Object        = (*AliCDBPath)(nil)
-	_ rbytes.Marshaler   = (*AliCDBPath)(nil)
-	_ rbytes.Unmarshaler = (*AliCDBPath)(nil)
+	_ root.Object        = (*Path)(nil)
+	_ rbytes.Marshaler   = (*Path)(nil)
+	_ rbytes.Unmarshaler = (*Path)(nil)
 )
 
 func init() {
 	{
 		f := func() reflect.Value {
-			var o AliCDBRunRange
+			var o RunRange
 			return reflect.ValueOf(&o)
 		}
 		rtypes.Factory.Add("AliCDBRunRange", f)
@@ -71,15 +71,15 @@ func init() {
 }
 
 var (
-	_ root.Object        = (*AliCDBRunRange)(nil)
-	_ rbytes.Marshaler   = (*AliCDBRunRange)(nil)
-	_ rbytes.Unmarshaler = (*AliCDBRunRange)(nil)
+	_ root.Object        = (*RunRange)(nil)
+	_ rbytes.Marshaler   = (*RunRange)(nil)
+	_ rbytes.Unmarshaler = (*RunRange)(nil)
 )
 
 func init() {
 	{
 		f := func() reflect.Value {
-			var o AliCDBMetaData
+			var o MetaData
 			return reflect.ValueOf(&o)
 		}
 		rtypes.Factory.Add("AliCDBMetaData", f)
@@ -87,9 +87,9 @@ func init() {
 }
 
 var (
-	_ root.Object        = (*AliCDBMetaData)(nil)
-	_ rbytes.Marshaler   = (*AliCDBMetaData)(nil)
-	_ rbytes.Unmarshaler = (*AliCDBMetaData)(nil)
+	_ root.Object        = (*MetaData)(nil)
+	_ rbytes.Marshaler   = (*MetaData)(nil)
+	_ rbytes.Unmarshaler = (*MetaData)(nil)
 )
 
 func init() {
